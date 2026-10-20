@@ -1,7 +1,7 @@
 replicaCount: 1
 fullnameOverride: manufacturing-service
 image:
-  repository: 825385242281.dkr.ecr.us-east-1.amazonaws.com/manufacturing-service
+  repository: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/manufacturing-service
   tag: sha-9791f17
   pullPolicy: Always
 service:
