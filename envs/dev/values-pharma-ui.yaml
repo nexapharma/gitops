@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: pharma-ui
 image:
   repository: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/pharma-ui
-  tag: latest
+  tag: sha-dc6e5d2
   pullPolicy: Always
 service:
   type: ClusterIP
