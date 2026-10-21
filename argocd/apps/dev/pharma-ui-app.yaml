@@ -13,7 +13,6 @@ spec:
   project: pharma
 
   source:
-    # Replace 'ravdy' with your GitHub username after forking zen-gitops
     repoURL: https://github.com/nexapharma/gitops.git
     targetRevision: HEAD
     path: helm-charts
