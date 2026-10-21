@@ -1,7 +1,7 @@
 replicaCount: 1
 fullnameOverride: api-gateway
 image:
-  repository: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/api-gateway
+  repository: 825385242281.dkr.ecr.us-east-1.amazonaws.com/api-gateway
   tag: latest
   pullPolicy: Always
 service:

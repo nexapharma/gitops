@@ -1,7 +1,7 @@
 replicaCount: 1
 fullnameOverride: inventory-service
 image:
-  repository: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/inventory-service
+  repository: 825385242281.dkr.ecr.us-east-1.amazonaws.com/inventory-service
   tag: latest
   pullPolicy: Always
 service:
